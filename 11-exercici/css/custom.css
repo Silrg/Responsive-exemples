@@ -1,0 +1,30 @@
+/* custom.css */
+
+.border{
+    border:1px solid #fff;
+}
+
+header{
+    min-height:150px;
+    /* display:flex;
+    flex-flow:column nowrap;
+    justify-content:space-between; */
+}
+header .logo a{
+    display:block;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+footer div{
+    border: 1px solid var(--colorRed);
+}
+
+footer a{
+    color:var(--color-2);
+}
+header img{
+    margin: 30px; 
+}
